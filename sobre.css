@@ -1,0 +1,287 @@
+/*---------Limpando Formatação padrao-----*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: #e7e7e7;
+    background: linear-gradient(to bottom, #e7e7e7, #fff) no-repeat; 
+}
+
+
+/*---------Formatação topo-----*/
+
+#principal {
+    background: #76c04e;
+    background: linear-gradient(to bottom, #99CC32 #76c04e);
+    height: 27px;
+}
+
+.insta {
+    position: absolute;
+    margin-top: 3px;
+    left: 170px;
+}
+
+.face {
+    position: absolute;
+    margin-top: 3px;
+    left: 210px;
+}
+
+
+.bt {
+    border: 0;
+    border-radius:5px;
+    cursor:pointer;
+    padding:1px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+    text-decoration:none;
+    background: #225ba7;
+    background: linear-gradient(to bottom, #23238e, #225ba7);
+    color: white;
+    position: relative ;
+    float: right;
+    margin-right: 30px;
+    margin-top: 3px;
+}
+
+.bt-cadastro {
+    border: 0;
+    border-radius:5px;
+    cursor:pointer;
+    padding:1px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+    text-decoration:none;
+    background: #225ba7;
+    background: linear-gradient(to bottom, #23238e, #225ba7);
+    color: white;
+    position: relative ;
+    float: right;
+    margin-right: 40px;
+    margin-top: 3px;
+}
+/*---------Formatação cabeçalho-----*/
+
+#cabecalho {
+    background-color: #225ba7;
+    background: linear-gradient(to bottom, #225ba7, #23238e);
+    padding: 10px;
+    height: 85px;
+}
+
+.imgca {
+    margin-top: 12.5px;
+    margin-left: 150px;
+}
+
+.menu {
+    position: relative;
+    bottom: 22px;
+    margin-left: 950px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.menu ul {
+    list-style:none;
+}
+
+.menu ul li {
+    float: left;
+    padding: 9px;
+    margin-top: -32px;
+}   
+
+.menu ul li a {
+    color: #fff;
+    padding: 8px;
+}
+
+.menu ul li a:hover {
+    color: black;
+    padding: 8px;
+}
+
+/*---------Formatação link-----*/
+
+
+a {
+    color: #383539;
+    text-decoration: none;
+    margin: 4px;
+}
+  
+a:hover {
+  color: #000;
+}
+
+/*-----Container-----*/
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    height: 820px;
+}
+
+/*-----linha-----*/
+
+hr {
+    margin-top: 30px;
+    background: #000;
+    height: 1px;
+}
+
+/*-----Sobre nós-----*/
+
+.sobre {
+    width: 50%;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #eeeeee;
+    background: linear-gradient(to bottom, #eeeeee, #f3efef no-repeat); 
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
+}
+
+.sobre p {
+    color: black;
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+h3,.sobre{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1.2em;
+    color: #23238e;
+}
+
+/*-----Proposito, missão, valores. Caixas-----*/
+
+.caixa {
+    margin-top: 5px;
+    height: 300px;
+}
+
+.caixa .proposito  {
+    border-radius: 5px;
+    border-top-style: solid;
+    border-top-color: #383539;
+    border-top-width: 15px;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    background: #eeeeee;
+    background: linear-gradient(to bottom, #eeeeee, #f3efef no-repeat); 
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
+    width: 26%;
+    float: left;
+    margin-left: 55px;
+    margin-top: 20px;
+    height: 250px;
+}
+
+.caixa .missao {
+    border-radius: 5px;
+    border-top-style: solid;
+    border-top-color: #76c04e;
+    border-top-width: 15px;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    background: #eeeeee;
+    background: linear-gradient(to bottom, #eeeeee, #f3efef no-repeat); 
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
+    width: 26%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 250px;
+}
+
+.caixa .valores {
+    border-radius: 5px;
+    border-top-style: solid;
+    border-top-color: #23238e;
+    border-top-width: 15px;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    background: #eeeeee;
+    background: linear-gradient(to bottom, #eeeeee, #f3efef no-repeat); 
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
+    width: 26%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 250px;
+}
+
+/*-----Conteudo Proposito-----*/
+
+.proposito h3 {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.proposito p {
+    padding: 20px;
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 1.8em;
+}
+
+/*-----Conteudo Missão-----*/
+
+.missao h3 {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.missao p {
+    padding: 20px;
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 1.8em;
+}
+
+/*-----Conteudo Valores-----*/
+
+.valores h3 {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.valores p.primeiro {
+    padding: 20px;
+    padding-bottom: 0px;
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 1.8em;
+}
+
+.valores p {
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.8em;
+}
+
+.clientelogin {
+    color: #FFF;
+    float: right;
+    margin-right: 815px;
+    margin-top: 33px;
+}

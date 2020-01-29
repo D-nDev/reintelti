@@ -1,0 +1,29 @@
+create table dbo.cadastro_n1 ( 
+  codigo int primary key identity(1,1) ,
+  usuario   nvarchar(50) unique ,
+  email  nvarchar(50) unique,
+  senha nvarchar(100),
+  nome nvarchar(200),
+  cpf varchar(100),
+  cep varchar(10),
+  endereco nvarchar(250),
+  numeroendereco int,
+  complemento nvarchar(50),
+  estado nvarchar(25),
+  cidade nvarchar(100),
+  bairro nvarchar(100),
+  telefone varchar(100),
+  celular varchar(100)
+
+)
+drop table chamados
+create table dbo.chamados ( 
+  codigo int primary key identity(1,1) ,
+  usuario   nvarchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS ,
+  email  nvarchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS,
+  nome nvarchar(200) COLLATE SQL_Latin1_General_CP1_CI_AS,
+  endereco nvarchar(200) COLLATE SQL_Latin1_General_CP1_CI_AS,
+  assunto text COLLATE SQL_Latin1_General_CP1_CI_AS,
+  status varchar(50),
+
+) 

@@ -1,0 +1,410 @@
+/*---------Limpando Formatação padrao-----*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+/*---------Formatação topo-----*/
+
+#principal {
+    background: #76c04e;
+    background: linear-gradient(to bottom, #99CC32 #76c04e);
+    height: 27px;
+}
+
+.insta {
+    position: absolute;
+    margin-top: 3px;
+    left: 170px;
+}
+
+.face {
+    position: absolute;
+    margin-top: 3px;
+    left: 210px;
+}
+
+.bt {
+    border: 0;
+    border-radius:5px;
+    cursor:pointer;
+    padding:1px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+    text-decoration:none;
+    background: #225ba7;
+    background: linear-gradient(to bottom, #23238e, #225ba7);
+    color: white;
+    position: relative ;
+    float: right;
+    margin-right: 30px;
+    margin-top: 3px;
+    
+}
+
+.bt-cadastro {
+    border: 0;
+    border-radius:5px;
+    cursor:pointer;
+    padding:1px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+    text-decoration:none;
+    background: #225ba7;
+    background: linear-gradient(to bottom, #23238e, #225ba7);
+    color: white;
+    position: relative ;
+    float: right;
+    margin-right: 40px;
+    margin-top: 3px;
+}
+
+/*---------Formatação cabeçalho-----*/
+
+#cabecalho {
+    background-color: #225ba7;
+    background: linear-gradient(to bottom, #225ba7, #23238e);
+    padding: 10px;
+    height: 85px;
+}
+
+.imgca {
+    margin-top: 12.5px;
+    margin-left: 150px;
+}
+
+.menu {
+    position: relative;
+    bottom: 22px;
+    margin-left: 950px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.menu ul {
+    list-style:none;
+}
+
+.menu ul li {
+    float: left;
+    padding: 9px;
+    margin-top: -34px;
+}
+
+.menu ul li a {
+    color: #fff;
+    padding: 8px;
+}
+
+.menu ul li a:hover {
+    color: black;
+    padding: 8px;
+}
+
+/*---------Formatação link-----*/
+
+
+a {
+  color: #383539;
+  text-decoration: none;
+  margin: 4px;
+}
+
+a:hover {
+    color: #000;
+}
+
+/*---------Formatação conteudo-----*/
+
+
+.fundo {
+    background-image: url("Imagens/fundo2.png") ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px 0px;
+    height: 300px;
+}
+
+.Conteudo {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    padding-bottom: 70px;
+    margin-left: 30px;
+}
+
+
+
+.bc {
+    border: 0;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    padding:10px 40px;
+    margin: 0px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+    font-size: 20px;
+    text-decoration:none;
+    background:#76c04e;
+    background: linear-gradient(to bottom, #99CC32 #76c04e);
+    color: white;
+    position: relative ;
+    left:450px;
+    bottom: 90px;
+}
+
+/*-------------Formatação serviço----------*/
+
+#principal-servico {
+    background: url("Imagens/fundo\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px 0px;
+    height: 300px;
+}
+
+.servico {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/*--------PARTE REDE ID--------*/
+#serv {
+    border: 0;
+    border-radius: 23px;
+    background-color: #eeeeee;
+    width: 250px;
+    height: 380px;
+    float: left;
+    margin: 40px 30px 40px 250px;
+}
+
+#imgre {
+    position: relative;
+    left: 100px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+/*--------PARTE CFTV ID--------*/
+#cf {
+    border: 0;
+    border-radius: 23px;
+    background-color: #eeeeee;
+    width: 250px;
+    height: 380px;
+    float: left;
+    margin: 40px 30px 40px 0px;
+}
+
+#imgcf {
+    position: relative;
+    left: 95px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+/*--------PARTE TELEFONIA ID--------*/
+#tel {
+    border: 0;
+    border-radius: 23px;
+    background-color: #eeeeee;
+    width: 250px;
+    height: 380px;
+    float: left;
+    margin: 40px 30px 40px 0px;
+}
+
+#imgte {
+    position: relative;
+    left: 105px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+/*--------Class--------*/
+.rede {
+    color: #225ba7;
+    text-align: center;
+    font-size: 22px;
+}
+
+.linha {
+    height: 1px;
+    background: #76c04e;
+    width: 190px;
+    margin-left:30px;
+}
+
+.para {
+    padding-left: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+/*--------------FORMATAÇÃO NEWSLATTER---------*/
+
+#new {
+    background: #76c04e;
+    background: linear-gradient(to bottom, #99CC32 #76c04e);
+    height: 130px;
+    
+}
+
+#email {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.tit {
+    color: #FFF;
+    font-size:30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.em {
+    position: relative;
+    top: 40px;
+    text-align: center;
+    
+}
+
+.email {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.sub {
+    border: 0;
+    border-radius:10px;
+    cursor:pointer;
+    padding:6px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+    text-decoration:none;
+    background: #225ba7;
+    background: linear-gradient(to bottom, #23238e, #225ba7);
+    color: white;
+    
+}
+
+.caixa {
+    height: 25px;
+    width: 30%;
+    border-radius: 14px;
+    padding-left: 10px;
+}
+
+/*-----------RODAPÉ-------------*/
+
+#rodapé {
+    background: #f4f4f4;
+    height: 210px;
+    padding: 30px;
+}
+
+
+.men {
+    color: #225ba7;
+    float: left;
+    margin-left: 305px;
+    font-size: 1.2em;
+}   
+
+.cont {
+    color:#225ba7;
+    float: left;
+    margin-left: 260px;
+    font-size: 1.2em;
+}
+
+.social {
+    color: #225ba7;
+    float: left;
+    margin-left: 220px;
+    font-size: 1.2em;
+}
+
+.rodinsta {
+    float: right;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+.rodface {
+    float: right;
+    margin-right: 170px;
+    margin-top: 60px;
+}
+
+.logorod{
+    float: left;
+    margin-top: -80px;
+    margin-left: 120px;
+}
+
+.lista {
+    color: #383539;
+    font-size: 1.2em;
+    float: left;
+    margin-left: 300px;
+    margin-top: -95px;
+}
+
+ul {
+    line-height: 1.5em;
+    list-style-image: url('Imagens/seta.png');
+  }
+  
+li {
+    padding-top: 12px;
+    
+}
+
+.esp {
+    margin-top: -35px;
+}
+
+.info {
+    color: #383539;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 235px;
+    margin-top: -70px;
+}
+
+/*------Rod----*/
+
+.roda {
+    background: #a8a8a8;
+    height: 35px;
+}
+
+span.text {
+    color: #222222;
+    line-height: 2.1em;
+    padding-left: 10px;
+}
+
+
+.clientelogin {
+    color: #FFF;
+    float: right;
+    margin-right: 815px;
+    margin-top: 33px;
+}

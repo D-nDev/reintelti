@@ -1,0 +1,166 @@
+body{
+    background: #e4e4e4;
+    width: 100%;
+    
+}
+* {
+    padding:0;
+    margin:0;
+}
+/*-----Menu-----*/
+#cabecalho {
+    background-color: #225ba7;
+    background: linear-gradient(to bottom, #225ba7, #23238e);
+    padding: 10px;
+    height: 85px;
+}
+
+.imgca {
+    margin-left: 150px;
+    margin-top: 12.5px;
+    
+}
+
+.menu {
+    position: relative;
+    bottom: 22px;
+    margin-left: 950px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.menu ul {
+    list-style:none;
+}
+
+.menu ul li {
+    float: left;
+    padding: 9px;
+    margin-top: -34px;
+}
+
+.menu ul li a {
+    color: #fff;
+    padding: 8px;
+}
+
+a {
+    color: #383539;
+    text-decoration: none;
+    margin: 4px;
+  }
+  
+a:hover {
+    color: #000;
+}
+
+.bg{
+    position: fixed;
+}
+
+#container {
+    width: 30%;
+    height: 350px;
+    position: relative; 
+    margin: 0 auto;
+    padding-top: 110px;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+}
+
+input {
+    background: #e7e7e7;
+    border: 0;
+    width: 70%;
+    height: 34px;
+    border-radius: 4px;
+    padding-left: 4px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+p.Titulo{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 51.8px;
+}
+
+input.usuario {
+    margin-left: 62px;
+    background-image: url("Imagens/icone-usuario.png") ;
+    width: 81%;
+    padding-left: 45px;
+}
+
+
+input.senha {
+    margin-left: 62px;
+    background-image: url("Imagens/icone-cadeado.png") ;
+    padding-left: 45px;
+    width: 81%;
+    margin-bottom: 30px;
+}
+
+
+.Entrar{
+    position: relative;
+	text-align: center;
+	background-color: #225ba7;
+	color: #f5fafa;
+    width: 81%;
+    margin-left: 62px;
+	height: 30px;
+	border-radius: 4px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.voltar{
+    position: relative;
+    text-align: center;
+    background-color: #225ba7;
+    color: #f5fafa;
+    width: 81%;
+    margin-left: 58px;
+    height: 30px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.crie{
+	text-align: center;
+	background-color: #225ba7;
+    color: #f5fafa;
+	width: 35.4%;
+	height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    float: left;
+    margin-left: 62px;
+}
+
+.esqueci{
+	text-align: center;
+	background-color: #225ba7;
+    color: #f5fafa;
+    cursor: pointer;
+    margin-left: 40px;
+	width: 35%;
+	height: 30px;
+    border-radius: 4px;
+    
+}
+
+
+
+
+
+

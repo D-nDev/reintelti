@@ -1,0 +1,376 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+
+/*-----------------Topo--------------*/
+
+.fundo {
+    width: 100%;
+    background: #225ba7;
+    background: linear-gradient(to bottom, #225ba7, #23238e);
+    height: 85px;
+    min-width: 1320px;
+}
+
+.imgtopo {
+   margin-left: 150px;
+   margin-top: 12.5px;
+}
+
+
+/*-----------------Menu lateral--------------*/
+
+#lateral {
+    width: 19%;
+    background:#f2f2f2;
+    background: linear-gradient(to bottom, #f8f8f8, #D8D8BF);
+    height: 547px;
+    position: absolute;
+    min-width: 255px;
+}
+
+#lateral #containerlateral  {
+    width: 77%;
+    background: #fff;
+    background: linear-gradient(to bottom, #fff, #f5f5f5);
+    height: 240px;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 5px;
+    position: relative;
+}
+.user {
+    margin-left: -30px;
+    margin-top: 7px;
+}
+
+.cima {
+    background: #F7F7F7;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    padding-left: 40px;
+    letter-spacing: 0.1em;
+}
+
+.info {
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-top:10px;
+    margin-left: 15px;
+}
+
+hr {
+    background: #B8DBA3;
+    border: none;
+    height: 2px;
+    margin-top:15px ;
+    margin-bottom: 6px;
+}
+
+.bt, .bt:hover {
+    width: 100%;
+    height: 30px;
+    margin-top: 8px;
+    padding-left: 14px;
+    border: 0;
+    border-radius:3px;
+    text-align: left;
+    font-size: 0.9em;
+    color: #fff;
+    background: #225ba7;
+    background: linear-gradient(to bottom, #00009c, #225ba7);
+    cursor: pointer;
+}
+
+/*-------------Formulario--------------*/
+
+select {
+    margin-top: 4px;
+    width: 25%;
+    color: #383539;
+    background: #E7E7e7;
+    background: linear-gradient(to bottom, #e7e7e7, #D8D8BF);
+    border: none;
+    border-radius: 4px;
+    height: 22px;
+    padding-left: 5px;
+    float: left;
+
+}
+
+option {
+    color: #383539;
+
+}
+
+label {
+   cursor: pointer;
+   
+}
+
+.container {
+    width: 77%;
+    min-width: 1050px;
+    height: 510px;
+    margin-left:260px ;
+    position: absolute;
+}
+
+.titulo {
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 1.5em;
+    color: #8079B2;
+    width: 80%;
+    text-shadow: 1px 1px #8079b2;
+}
+
+.hrform {
+    background: #979797;
+    box-shadow: 2px 2px 3px #f7f7f7;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.form {
+    color: gray;
+    margin-left: 15px;
+   
+}
+
+.nome {
+    float: left;
+    margin-left: 80px;
+    margin-top: -18px;
+}
+
+input.data {
+    float: left;
+    margin-top: -14px;
+    margin-left: 80px;
+    width: 25%;
+    color: #383539;
+    background: #E7E7e7;
+    background: linear-gradient(to bottom, #e7e7e7, #D8D8BF);
+    border: none;
+    border-radius: 4px;
+    padding-left: 5px;
+    height: 22px;
+}
+
+input.empresa {
+    float: left;
+    margin-top: -32px;
+    margin-left: 690px;
+    width: 28.5%;
+    height: 23px;
+    color: #383539;
+    background: #E7E7e7;
+    background: linear-gradient(to bottom, #e7e7e7, #D8D8BF);
+    border: none;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+
+input.senhaatual {
+    float: left;
+    margin-top: -32px;
+    margin-left: 100px;
+    width: 36.3%;
+    height: 23px;
+    color: #383539;
+    background: #E7E7e7;
+    background: linear-gradient(to bottom, #e7e7e7, #D8D8BF);
+    border: none;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+
+input.senhanova {
+    float: left;
+    margin-top: -20px;
+    margin-left: 100px;
+    width: 36.3%;
+    height: 23px;
+    color: #383539;
+    background: #E7E7e7;
+    background: linear-gradient(to bottom, #e7e7e7, #D8D8BF);
+    border: none;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+
+input.confirmasenha {
+    float: left;
+    margin-top: -11px;
+    margin-left: 11px;
+    width: 28.5%;
+    height: 23px;
+    color: #383539;
+    background: #E7E7e7;
+    background: linear-gradient(to bottom, #e7e7e7, #D8D8BF);
+    border: none;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+
+input.endereco {
+    float: left;
+    margin-top: 22px;
+    margin-left: -69px;
+    width: 25.5%;
+    height: 23px;
+    color: #383539;
+    background: #E7E7e7;
+    background: linear-gradient(to bottom, #e7e7e7, #D8D8BF);
+    border: none;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+
+select.prioridade {
+   
+    width: 24.8%;
+    margin-left: 76px;
+    margin-top: 5px;
+    height: 23px;
+    color: #383539;
+    background: #E7E7e7;
+    background: linear-gradient(to bottom, #e7e7e7, #D8D8BF);
+    border: none;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+
+input.responsavel {
+    float: left;
+    width: 28.5%;
+    margin-left: 692px;
+    margin-top: -22.5px;
+    height: 23px;
+    color: #383539;
+    background: #E7E7e7;
+    background: linear-gradient(to bottom, #e7e7e7, #D8D8BF);
+    border: none;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+
+span.ac {
+    float: left;
+    margin-top: -43px;
+    margin-left: 694px;
+}
+
+span.prio{
+    margin-left: 82px;
+}
+
+
+span.emp {
+    float: left;
+    margin-top: -35px;
+    margin-left: 87px;
+}
+
+span.end {
+    float: left;
+    margin-top: 18px;
+}
+
+span.senhaatual {
+    float: left;
+    margin-top: -14px;
+}
+
+span.senhanova {
+    float: left;
+    margin-top: -2px;
+}
+
+span.confirmasenha {
+    float: left;
+    margin-top: 10px;
+}
+
+span.problema {
+    float: left;
+    margin-top: 18px;
+
+}
+
+textarea {
+    float: left;
+    margin-top: 5px;
+    color: #383539;
+    background: #E7E7e7;
+    background: linear-gradient(to bottom, #e7e7e7, #D8D8BF);
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.btsub{
+   width: 14%;
+   margin-left: 846px;
+   padding: 6px;
+   color:#fff;
+   border: none;
+   border-radius: 4px;
+   background:#225ba7 ;
+   margin-top:0.5%;
+   cursor: pointer;
+   background: linear-gradient(to bottom, #00009c, #225ba7);
+}
+
+.btalterar{
+   width: 14%;
+   margin-left: 846px;
+   padding: 6px;
+   color:#fff;
+   border: none;
+   border-radius: 4px;
+   background:#225ba7 ;
+   margin-top:30px;
+   margin-left: -1px;
+   cursor: pointer;
+   background: linear-gradient(to bottom, #00009c, #225ba7);
+}
+
+/*----------------Rodapé------------------*/
+
+.rodape {
+    position: relative;
+    margin-top: 546px;
+    background: #76c04e;
+    background: linear-gradient(to bottom, #99CC32 #76c04e);
+    height:26px;
+    width: 100%;
+    min-width: 1320px;
+ }
+
+ /*----Tabela----*/
+
+ .tabelahistorico {
+     margin: 0 auto;
+     border: 1px groove black;
+ }
+
+ tr {
+     width: 10%;
+     color: #383539;
+ }

@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e7e7e7;
+    background: linear-gradient(to bottom, #e7e7e7, #fff) no-repeat; 
+    overflow: hidden;
+}
+
+.geral {
+   width: 100%;
+   min-width: 890px;
+}
+
+/*-----------------Topo--------------*/
+
+.fundo {
+    background: #225ba7;
+    background: linear-gradient(to bottom, #225ba7, #23238e);
+    padding: 10px;
+    height: 85px;
+    
+}
+
+.imgtopo {
+   margin-left: 150px;
+   margin-top: 12.5px;
+}
+
+.menu {
+   position: relative;
+   bottom: 22px;
+   margin-left: 950px;
+   font-size: 15px;
+}
+
+.menu ul {
+   list-style:none;
+}
+
+.menu ul li {
+   float: left;
+   padding: 9px;
+   margin-top: -34px;
+}
+
+.menu ul li a {
+   color: #fff;
+   padding: 8px;
+}
+
+.menu ul li a:hover {
+   color: black;
+   padding: 8px;
+}
+
+/*---------Formatação link-----*/
+
+
+a {
+ color: #383539;
+ text-decoration: none;
+ margin: 4px;
+}
+
+a:hover {
+   color: #000;
+}
+
+/*-----------------Container--------------*/
+
+.container {
+   width:70%;
+   margin: 0 auto;
+   margin-bottom: 7%;
+   margin-top: 5%;
+   min-width: 890px;
+}
+
+
+
+/*-----------------Fieldset--------------*/
+fieldset {
+   padding: 1em;
+   margin: 1em 0;
+   border: 1px solid #ccc;
+   background: #f8f8f8;
+   background: linear-gradient(to bottom, #e7e7e7, #f8f8f8);/*a8a8a8*/
+}
+
+
+/*-----------------Legend--------------*/
+
+legend {
+   font-weight: bold;
+   text-transform: capitalize;
+   letter-spacing: 0.1em;
+}
+
+legend.cadastro {
+       text-align: center;
+       font-weight: bold;
+       text-transform: capitalize;
+       letter-spacing: 0.1em;
+}
+
+/*-----------------Label-------------*/
+
+label {
+   cursor: pointer;
+}
+
+/*-----------------Formulario INPUT-------------*/
+
+input {
+   height: 22px;
+   width: 44%;
+   padding-left: 5px;
+   border-radius: 5px;
+   border: 1px solid #000;
+   box-shadow: 2px 2px 3px #000;
+   padding-left: 0.5%;
+}
+
+.cep {
+    height: 22px;
+    width: 20%;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 3px #000;
+    padding-left: 0.5%;
+    margin-right: 2%;
+}
+
+select {
+   height: 22px;
+   width: 44%;
+   padding-left: 5px;
+   border-radius: 5px;
+   border: 1px solid #000;
+   box-shadow: 2px 2px 3px #000;
+   padding-left: 0.5%;
+}
+
+
+input:hover {
+    border: 1px solid #225ba7;
+    box-shadow: 2px 2px 3px #00009c;  
+}
+
+input.usuario {
+    width: 30%;
+    padding-left: 1%;
+    margin-right: 3%;
+    
+ }
+ 
+ input.email {
+    width: 30%;
+    padding-left: 1%;
+    
+ }
+ 
+ input.senha {
+    width: 30%;
+    padding-left: 1%;
+    margin-top: 3.5%;
+    margin-right: 2.5%;
+ }
+
+input.nome {
+   margin-right: 3%;
+   width: 41%;
+}
+
+input.cpf {
+   width: 16%; 
+   margin-top: 3.5%;
+   margin-right: 2%; 
+}
+
+input.endereco {
+   margin-top: 3.5%;
+   width: 25%;
+   margin-right: 2%;
+}
+
+input[type="text"]:disabled {
+  background: #fff;
+}
+
+input.numero {
+   width: 6%;
+   margin-right: 3%;
+}
+
+input.comp {
+   width: 20%;
+   margin-top: 3.5%;
+   margin-right: 3%; 
+}
+
+input.estado {
+   margin-top: 3.5%;
+   width: 20%;
+   margin-right: 3%;
+}
+
+input.cidade{
+   width: 20%;
+   margin-right: 3%;
+}
+
+input.bairro {
+   width: 23%;
+   margin-top: 3.5%;
+   margin-right: 3%; 
+}
+
+input.tel {
+   margin-top: 3.5%;
+   width: 15%;
+   margin-right: 3%;
+   margin-bottom: 2.5%;
+}
+
+input.celular{
+   width: 15%;
+}
+
+
+input.submit {
+   width: 14%;
+   position: relative;
+   margin-left: 280px;
+   color:#fff;
+   background:#225ba7 ;
+   margin-top:0.5%;
+   cursor: pointer;
+   background: linear-gradient(to bottom, #00009c, #225ba7);
+}
+
+input.submitlimpar {
+   width: 14%;
+   margin-left: 500px;
+   color:#fff;
+   background:#225ba7 ;
+   margin-top:-21.5px;
+   cursor: pointer;
+   background: linear-gradient(to bottom, #00009c, #225ba7);
+}
+
+.voltar {
+   width: 14%;
+   margin-left: 380px;
+   color:#fff;
+   background:#225ba7 ;
+   margin-top:0.5%;
+   cursor: pointer;
+   background: linear-gradient(to bottom, #00009c, #225ba7);
+}
+
+
+.cadastrook {
+   text-align: center;
+   position: relative;
+   background: #76c04e;
+   background: linear-gradient(to bottom, #99CC32 #76c04e);
+   height:25px;
+   width: 100%;
+   min-width: 890px;
+}
+
+
+/*-----------Rodapé---------*/
+
+.rodape {
+   position: relative;
+   background: #76c04e;
+   background: linear-gradient(to bottom, #99CC32 #76c04e);
+   height:25px;
+   width: 100%;
+   margin-top: 119px;
+   min-width: 890px;
+}

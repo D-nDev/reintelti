@@ -4,7 +4,7 @@ Projeto para a empresa Prestadora de serviços na área da tecnologia da informa
 
 Projeto desenvolvido em HTML5, CSS3, JavaScript, jQuery, MSSQL e JSP em resolução 1366x768.
 
-O Projeto a seguir foi idealizado visando a necessidade de uma empresa real, a qual não possuia um site na web, atráves do meio academico por um grupo de 3 integrantes: [Diego](https://github.com/D-nDev) [Richard](https://github.com/AkashiSei) e [Eric](#), foram definidas as linguagens e metodologia de desenvolvimento.
+O Projeto a seguir foi idealizado visando a necessidade de uma empresa real, a qual não possuia um site na web, atráves do meio academico por um grupo de 3 integrantes: [Diego](https://github.com/D-nDev), [Richard](https://github.com/AkashiSei) e [Eric](#), foram definidas as linguagens e metodologia de desenvolvimento.
 
 ## Instalação
 
